@@ -48,7 +48,7 @@ body {
 	border-radius: 50%;
 	opacity: 0.4;
 	background: var(--color-link);
-	animation: loaderAnim 7s linear infinite alternate forwards;
+	animation: loaderAnim .2s linear infinite alternate forwards;
 }
 
 @keyframes loaderAnim {
@@ -562,7 +562,6 @@ main {
 
 
 .video{
-	margin: 10%;
 	margin-bottom: 0;
 }
 
